@@ -12,7 +12,7 @@ public:
     LinkedList();
     ~LinkedList();
     void push_front(int v);
-    void remove_evens(); // TODO
+    void remove_evens();
     std::string to_string() const;
 private:
     Node* head_ = nullptr;
